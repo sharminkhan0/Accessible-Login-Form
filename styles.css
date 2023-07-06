@@ -1,0 +1,265 @@
+/* Google Fonts - Poppins */
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', Arial, Helvetica, sans-serif;
+}
+
+.container {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: -webkit-linear-gradient(left, #000428, #0872cf, #028b92, #02926e);
+    column-gap: 40px;
+}
+
+.form {
+    position: absolute;
+    max-width: 450px;
+    width: 100%;
+    padding: 40px;
+    border-radius: 8px;
+    background: #ffffff;
+}
+
+.title {
+    font-size: 30px;
+    font-weight: 700;
+    color: #24074f;
+    text-align: center;
+}
+
+.title:hover {
+    filter: drop-shadow(4px 4px  rgba(0,0,0,0.1));
+    color: #15537c;
+    transform: translateY(-7px);
+}
+
+form {
+   margin-top: 30px; 
+}
+
+.form .field {
+    position: relative;
+    height: 50px;
+    width: 100%;
+    margin-top: 20px;
+    border-radius: 6px;
+}
+
+.field input {
+    height: 100%;
+    width: 100%;
+    border: none;
+    font-size: 16px;
+    font-weight: 400;
+    border-radius: 6px;
+} 
+
+.field button {
+    height: 100%;
+    width: 100%;
+    font-size: 16px;
+    font-weight: 400;
+    border: 1px solid#050b5e;
+    border-radius: 6px;
+}
+
+.field input {
+    outline: none;
+    padding: 0 15px;
+    border: 1px solid#bbb8b8;
+}
+
+.field input:focus {
+    border-bottom-width: 2px;
+}
+
+.eye-icon {
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    transform: translateY(-50%);
+    font-size: 18px;
+    color: #9b9b9b;
+    cursor: pointer;
+    padding: 5px;
+}
+
+.field .button {
+    color: #fff;
+    background-color: #0171d3;
+    transition: all 0.5s ease;
+    cursor: pointer;
+    
+}
+
+.fild:hover, 
+.button:hover {
+    transform: translateY(-7px);
+    background: -webkit-linear-gradient(left, #020c62, #1881dc, #028b92, #02926e);
+}
+
+.form-link {
+    text-align: center;
+    margin-top: 15px;
+}
+
+.form-link span,
+.form-link a {
+    font-size: 14px;
+    font-weight: 400;
+    color: #232836;
+}
+
+.form a{
+    color: #0171d3;
+    text-decoration: none;
+}
+
+.form-content a:hover{
+    text-decoration: underline;
+    letter-spacing: 1px;
+    color: #0945ea;
+}
+
+.line{
+    position: relative;
+    height: 1px;
+    width: 100%;
+    margin: 36px 0;
+    background-color: #d4d4d4;
+}
+
+.line::before{
+content: 'or';
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50% -50%);
+background-color: #fff;
+color: #232836;
+padding: 0 0 20px 0 ;
+}
+
+.media-options a{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+a.facebook{
+    color: #fff;
+    background-color: #4267b2;
+}
+
+a.facebook .facebook-icon,
+a.google .google-icon {
+    height: 28px;
+    width: 28px;
+    color: #0171d3;
+    font-size: 20px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #fff;
+}
+
+.facebook-icon,
+.google-icon {
+    position: absolute;
+    top: 50%;
+    left: 15px;
+    transform: translateY(-50%);
+}
+
+a.facebook:hover {
+    transform: translateY(-7px);
+    background: -webkit-linear-gradient(left, #020c62, #1881dc, #028b92, #02926e);
+}
+
+a.google:hover {
+    transform: translateY(-7px);
+    background: -webkit-linear-gradient(left, #020c62, #1881dc, #028b92, #02926e);
+}
+
+a.facebook .facebook-icon:hover,
+a.google .google-icon:hover {
+    color: #fff;
+    background-color: #0872cf;
+}
+
+a.google .google-icon {
+    background-color: #ece7ec;
+}
+
+a.google{
+    border: 1px solid #d3d2d2;
+}
+
+a.google span{
+    font-weight: 500;
+    opacity: 0.6;
+    color: #232836;
+}
+
+a.google span:hover {
+    color: #ffffffff;
+    opacity: 0.9;
+}
+
+.form.signup{
+    opacity: 0;
+    pointer-events: none;
+}
+.forms.show-signup .form.signup{
+    opacity: 1;
+    pointer-events: auto;
+}
+.forms.show-signup .form.login{
+    opacity: 0;
+    pointer-events: none;
+}
+
+@media screen and (max-width: 400px) {
+    .form{
+        padding: 20px 10px;
+    }
+    
+}
+/* Google Fonts - Poppins */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
