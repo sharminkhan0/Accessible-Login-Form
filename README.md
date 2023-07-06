@@ -29,5 +29,4 @@ GitHub: @Sharminkhan0
 Twitter: @sharminakterkhan 
 LinkedIn: LinkedIn
 
-# ⭐️
-Show your support If you like this project please don't hesitate to support me with your valued contribution and don't forget to star the repo to reach more people.
+⭐️Show your support If you like this project please don't hesitate to support me with your valued contribution and don't forget to star the repo to reach more people.
